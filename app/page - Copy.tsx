@@ -17,23 +17,18 @@ export default function Home() {
         <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">
           Mi Conexión Interna
         </h1>
-
-        <p className="italic text-gray-600 mb-4">
-          “¿Qué parte dentro de ti quiere ser escuchada hoy?”
-        </p>
-
-        <Card className="p-6 mb-8 bg-white/80 backdrop-blur-sm shadow-xl rounded-2xl">
+        
+        <Card className="p-6 mb-8 bg-white/80 backdrop-blur-sm">
           <p className="text-lg text-gray-700 mb-6">
-            Un espacio seguro para reconectar contigo mismo, escuchando tus sentimientos y necesidades con compasión.
+            Un espacio seguro para explorar tus sentimientos y necesidades a través de la Comunicación No Violenta.
           </p>
-
+          
           <Link href="/dashboard">
-            <Button
-              className="w-full md:w-auto button-hover bg-gradient-to-r from-blue-500 to-purple-500 text-white text-base md:text-lg px-6 py-3 rounded-xl"
+            <Button 
+              className="w-full md:w-auto button-hover bg-gradient-to-r from-blue-500 to-purple-500 text-white"
               size="lg"
-              aria-label="Iniciar mi momento de conexión"
             >
-              Iniciar mi momento de conexión
+              Comenzar Sesión de Conexión
             </Button>
           </Link>
         </Card>
@@ -46,9 +41,10 @@ export default function Home() {
         >
           <p>Basado en los principios de la Comunicación No Violenta (CNV)</p>
           <div className="pt-4 border-t border-gray-200">
-            <p className="font-medium">Versión 2.0 Hombres</p>
+<p className="font-medium">Version 2.0 Hombres</p>
+<p className="font-medium">  </p>
             <p className="font-medium">Desarrollado por Marlon Ortiz</p>
-            <a
+            <a 
               href="mailto:marlon.moe24@gmail.com"
               className="text-blue-600 hover:text-blue-800 transition-colors"
             >
